@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import css from './Trending.module.css'
+import PropTypes from 'prop-types';
 
 export default function Trending({ trend }) {
   return (
@@ -9,4 +10,8 @@ export default function Trending({ trend }) {
       })}
     </div>
   );
+}
+
+Trending.propTypes = {
+trend: PropTypes.array,    
 }
