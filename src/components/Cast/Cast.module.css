@@ -1,0 +1,15 @@
+.castsList{
+    display: flex;
+    flex-direction: column;
+}
+
+.castImg{
+    width: 80px;
+}
+
+.castElement{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-bottom: 20px;
+}

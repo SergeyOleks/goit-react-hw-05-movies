@@ -1,0 +1,10 @@
+.reviewsList{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.castItem {
+  display: flex;
+  flex-direction: column;
+}

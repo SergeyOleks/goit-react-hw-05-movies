@@ -1,0 +1,33 @@
+.movieDetails____photoDescriptionContainer {
+  margin-top: 10px;
+  padding: 10px;
+  /* border-top: 2px solid #000; */
+  border-bottom: 1px solid #000;
+  display: flex;
+  gap: 10px;
+}
+
+.movieDetails__photoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.movieDetails__photo {
+  width: 200px;
+}
+
+.movieDetails__description {
+}
+
+.movieDetails__listGentres {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.movieDetails__addInfo {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
